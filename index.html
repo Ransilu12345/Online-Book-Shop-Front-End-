@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Book Shop - Home</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<!--Navigation Bar-->
+
+<header>
+    <div class="logo-container">
+        <img src="images/logo.jpg" alt="Book World Logo" class="logo">
+        <h1 class="shop-name">Book World</h1>
+    </div>
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="menu-item">
+                <a href="categories.html">Categories ^</a>  <!--Check the Catogories page too (Click on Category)-->
+                <ul class="dropdown-menu">
+                    <li><a href="fiction.html">Fiction</a></li>
+                    <li><a href="non-fiction.html">Non-Fiction</a></li>
+                    <li><a href="stationery.html">Stationery</a></li>
+                    <li><a href="gifts&cards.html">Gifts & Cards</a></li>
+                </ul>
+            </li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<!--Best Books-->                                           <!--after clicking "view details btuuon" user will be redirected to seperate html page contains book-->
+        <section class="best-list">
+            <h2>Best-Selling Books of the Month</h2>
+            <div class="book-list">
+                <article>
+                    <div>
+                        <h2>Featured Book: Counting Miracles</h2>
+                        <p>Counting Miracles is another wonderful book by Nicholas Sparks.</p>
+                        <img src="images/best1.png" alt="Counting Miracles Book Cover">
+                        
+                        <div>
+                            <form action="book-details (Counting Miracles).html" method="get">
+                                <button type="submit">View Details</button>
+                            </form>
+                        </div>
+                    </div>
+                </article>
+                
+                <article>
+                    <div>
+                        <h2>Featured Book: The Women</h2>
+                        <p>A story of one woman gone to war by Kristin Hannah.</p>
+                        <img src="images/best2.jpg" alt="The Women Book Cover">
+                        
+                        <div>
+                            <form action="book-details (The Women).html" method="get">
+                                <button type="submit">View Details</button>
+                            </form>
+                        </div>
+                    </div>
+                </article>
+                
+                <article>
+                    <div>
+                        <h2>Featured Book: Truths</h2>
+                        <p>Truth is a 2009 crime fiction novel written by Vivek Ramaswamy.</p>
+                        <img src="images/best3.jpg" alt="Truths Book Cover">
+                        
+                        <div>
+                            <form action="book-details (Truths).html" method="get">
+                                <button type="submit">View Details</button>
+                            </form>
+                        </div>
+                    </div>
+                </article>
+                
+                <article>
+                    <div>
+                        <h2>Featured Book: Ghosts Of Honolulu</h2>
+                        <p>Unearths the true story of Douglas Wada written by Mark Harmon.</p>
+                        <img src="images/best4.jpg" alt="Ghosts Of Honolulu Book Cover">
+                        
+                        <div>
+                            <form action="book-details (Ghosts Of Honolulu).html" method="get">
+                                <button type="submit">View Details</button>
+                            </form>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+<!--New Arrivals-->                                                 <!--Following href redirect the uses to payment site-->
+        <section>
+            <h2>New Arrivals</h2>
+            <div class="book-section">
+                
+                <div class="book-item">
+                    <img src="images/achristmasduet.jpg" alt="A Christmas Duet">
+                    <h3>A Christmas Duet</h3>
+                    <p>$15.99</p>
+                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=bookworld@gmail.com&AChristmasDuet=Book+Order&amount=15.99&currency_code=USD" target="_blank">
+                    <button>Order Now</button>
+                    </a>
+                </div>
+                
+                <div class="book-item">
+                    <img src="images/thewaterdancer.jpg" alt="The Water Dancer">
+                    <h3>The Water Dancer</h3>
+                    <p>$19.99</p>
+                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=bookworld@gmail.com&TheWaterDancer=Book+Order&amount=19.99&currency_code=USD" target="_blank">
+                    <button>Order Now</button>
+                    </a>
+                </div>
+                
+                <div class="book-item">
+                    <img src="images/cityofashes.jpg" alt="City Of Ashes">
+                    <h3>City Of Ashes</h3>
+                    <p>$17.99</p>
+                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=bookworld@gmail.com&CityOfAshes=Book+Order&amount=17.99&currency_code=USD" target="_blank">
+                    <button>Order Now</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+<!--Footer-->                        
+<footer class="custom-footer">
+        <div class="footer-container">
+
+            <div class="footer-section">
+                <h2>Book World</h2>
+                <img src="images/logo.jpg" alt="Book World Logo" class="footer-logo">
+                <ul class="contact-info">
+                    <li><i class="material-icons" style="font-size:20px">call</i> 011 2 555 777</li>
+                    <li><i class="material-icons" style="font-size:20px">local_post_office</i> Bookworld@gmail.com</li>
+                    <i class="material-icons" style="font-size:20px">location_on</i>WVF9+8QJ Book World (PVT) Ltd, Borella Rd, Colombo 01000.</li>
+                </ul>
+            </div>
+    
+<!--Contact Form-->                                         <!--After filling the form they will be redirect to thank.html page-->
+            <div class="footer-section">
+                <h3>Send a Message</h3>
+                <form action="thankyou.html" method="get" class="footer-form">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <textarea name="message" placeholder="Enter Your Message..." required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+    
+<!--Newsletter and Social Links-->
+            <div class="footer-section">
+                <h3>Subscribe to Newsletter</h3>
+                <form action="thankyou.html" method="get" class="newsletter-form">
+                    <input type="email" name="newsletter-email" placeholder="Your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+
+                <br>
+                <h3>Follow us on</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/book_world"><i class="fa fa-facebook-square"></i>Facebook</a>
+                    <a href="https://www.twitter.com/book_world"><i class="fa fa-twitter"></i>Twitter</a>
+                    <a href="https://www.instagram.com/book_world"><i class="fa fa-instagram"></i>Instagram</a>
+                </div>
+            </div>
+        </div>
+        <p class="footer-rights">&copy; 2024 Book World. All rights reserved.</p>
+
+</footer>    
+</body>
+</html>
+ 

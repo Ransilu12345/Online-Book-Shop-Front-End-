@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/testimonials.css">
+    <title>Book Shop - Testimonials</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    
+
+<!--Navigation Bar-->
+
+<header>
+    <div class="logo-container">
+        <img src="images/logo.jpg" alt="Book World Logo" class="logo">
+        <h1 class="shop-name">Book World</h1>
+    </div>
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="menu-item">
+                <a href="categories.html">Categories ^</a>  <!--Check the Catogories page too (Click on Category)-->
+                <ul class="dropdown-menu">
+                    <li><a href="fiction.html">Fiction</a></li>
+                    <li><a href="non-fiction.html">Non-Fiction</a></li>
+                    <li><a href="stationery.html">Stationery</a></li>
+                    <li><a href="gifts&cards.html">Gifts & Cards</a></li>
+                </ul>
+            </li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+
+<!--content-->
+    <main>
+        <section>
+            <h2>Customer Testimonials</h2>
+            <div class="testimonial" controls>
+                <h3>Sugath Siripala - 05/10/2024</h3>
+                <p>Imagine walking into a room full of magic and adventure. Welcome to Bookworld Bookstore. As soon as you walk in, you're greeted by the warm glow of antique lamps and the soothing scent of aged paper. Every corner is packed with shelves overflowing with literary treasures. From timeless classics to new bestsellers, it's like wandering through a labyrinth of stories. The friendly staff are like your personal book wizards, ready to help you find your next great read. And there's a cozy reading nook perfect for losing yourself in a book. Don't miss the enchanting children's section where little readers can embark on their own magical journeys. Plus, the cafe serves up delicious treats and the best chai latte in town. Book World Bookstore isn't just a place to buy books, it's a sanctuary for book lovers. Come for the books, stay for the charm. Trust me, you'll never want to leave. </p>
+                <video width="320" height="240" controls> <!--muted the video to audio to do the work-->
+                    <source src="videos/video11.mp4" type="video/mp4">
+                </video>
+                <audio controls>
+                    <source src="audios/audio11.mp3" type="audio/mp3">
+                </audio>
+                <label>
+                    <input type="checkbox"> Did you enjoy our service?
+                </label>
+            </div>
+
+            <div class="testimonial">
+                <h3>Bandula Warnapura - 10/10/2024</h3>
+                <p>Hey there, book lovers! Welcome to Book World, the ultimate bookstore adventure. Picture this, stepping into a literary paradise where the scent of freshly printed pages fills the air. Whether you're into epic fantasies, gripping thrillers, or heartwarming romances, Book World has got you covered. Imagine walking through aisles that seem to stretch forever, each one brimming with treasures just waiting to be discovered. It's not just a bookstore. It's an adventure waiting for you. Happy reading, everyone! </p>
+                <video id="video2" controls width="320" height="240"controls> <!--muted the video to audio to do the work-->
+                    <source src="videos/video22.mp4" type="video/mp4">
+                </video>
+                <audio id="audio2" controls>
+                    <source src="audios/audio22.mp3" type="audio/mp3">
+                </audio>
+                <label>
+                    <input type="checkbox"> Did you enjoy our service?
+                </label>
+            </div>
+        </section>
+    </main>
+
+
+
+
+<!--Footer-->
+<footer class="custom-footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h2>Book World</h2>
+            <img src="images/logo.jpg" alt="Book World Logo" class="footer-logo">
+            <ul class="contact-info">
+                <li><i class="material-icons" style="font-size:20px">call</i> 011 2 555 777</li>
+                <li><i class="material-icons" style="font-size:20px">local_post_office</i> Bookworld@gmail.com</li>
+                <i class="material-icons" style="font-size:20px">location_on</i>WVF9+8QJ Book World (PVT) Ltd, Borella Rd, Colombo 01000.</li>
+            </ul>
+        </div>
+
+<!--Contact Form-->                                                    <!--After filling the form they will be redirect to thank.html page-->
+        <div class="footer-section">
+            <h3>Send a Message</h3>
+            <form action="thankyou.html" method="get" class="footer-form">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <textarea name="message" placeholder="Enter Your Message..." required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+<!--Newsletter and Social Links-->
+        <div class="footer-section">
+            <h3>Subscribe to Newsletter</h3>
+            <form action="thankyou.html" method="get" class="newsletter-form">
+                <input type="email" name="newsletter-email" placeholder="Your Email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+
+            <br>
+            <h3>Follow us on</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/book_world"><i class="fa fa-facebook-square"></i>Facebook</a>
+                <a href="https://www.twitter.com/book_world"><i class="fa fa-twitter"></i>Twitter</a>
+                <a href="https://www.instagram.com/book_world"><i class="fa fa-instagram"></i>Instagram</a>
+            </div>
+        </div>
+    </div>
+    <p class="footer-rights">&copy; 2024 Book World. All rights reserved.</p>
+</footer>
+</body>
+</html>
+
